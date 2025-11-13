@@ -41,21 +41,7 @@ This stack includes:
 
 ---
 
-# 🏗 Architecture Diagram (Mermaid)
 
-```mermaid
-flowchart LR
-    A[Client Browser] -->|HTTP :80| B[Nginx Reverse Proxy]
-    B -->|Proxy Pass :8000| C[Flask App (Gunicorn)]
-    C -->|SQL Queries| D[(PostgreSQL Database)]
-    subgraph Docker Compose Network
-        B
-        C
-        D
-    end
-```
-
----
 
 # 🚀 Getting Started
 
