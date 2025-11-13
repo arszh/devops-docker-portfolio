@@ -1,4 +1,4 @@
-# DevOps Docker Portfolio Project  
+# DevOps Docker  Project  
 **Flask + PostgreSQL + Nginx + Docker Compose**
 
 This repository demonstrates a **production-ready, multi-service environment** using Docker.  
